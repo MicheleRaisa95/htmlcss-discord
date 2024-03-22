@@ -134,7 +134,7 @@ header {
         
 /*FOOTER*/
 footer {
-    background-color: black;
+    background-color:rgb(53, 51, 51);
 }
 
 .top-footer {
@@ -144,24 +144,22 @@ footer {
 }
 
 .bottom-footer {
-    background-color: green;
+    
     padding-top: 15px;
    
 }
 /*fine footer*/
 /*stile 5 colonne*/
 .col-17 {
-    width: calc(100% / 6);
-    border: 1px solid black;
-    background-color: green;
-    height: 350px;
+    width: calc(100% / 5);
+    
 }
 
 .col-34 {
-    width: calc(100% / 6 * 2);
-    border: 1px solid black;
-    background-color: red;
-    height: 350px;
+    width: calc(100% / 5 * 2);
+    
+   
+    
 }
    
     .height-100 {
@@ -177,8 +175,7 @@ footer {
     }
 
     .bottom-footer-content {
-        border: 1px solid black;
-        background-color: pink;
+       
         padding: 20px;
     }
 
@@ -302,4 +299,20 @@ footer {
     .resize {
         width: 10%;
     }
+
+    .endlist {
+        list-style-type: none;
+        color: #fff;
+    }
+
+    .title {
+        color: #546ca8;
+    }
    
+    .end-btn {
+        border-radius: 30px;
+        background-color: #546ca8;
+        color: #fff;
+        padding: 10px;
+        text-decoration: none;
+    } 
