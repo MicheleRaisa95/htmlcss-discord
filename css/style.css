@@ -102,8 +102,8 @@ header {
 /* STILE DUE COLONNE*/
 .col-60 {
     width: 60%;
-    height: 250px;
-    border: 1px solid black;
+    height: 450px;
+   
    
 }
 
@@ -113,9 +113,8 @@ header {
     border: 1px solid black;
 }
 
-.bg-sky {
-    background-color: skyblue;
-}
+
+
     .bg-peach {
         background-color: peachpuff;
     }
@@ -241,4 +240,31 @@ footer {
     #a1 {
         background-color: rgb(39, 37, 37);
         color: white;
+    }
+
+    #frog {
+        background-image: url(../img/item1.svg);
+        background-repeat: no-repeat;
+        
+        
+    }
+
+    .bg-wave {
+        background-image: url(../img/wave.svg);
+        background-size:auto;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+
+    #mage {
+        background-image: url(../img/item2.svg);
+        background-repeat: no-repeat;
+        
+    }
+
+    #graggle {
+        background-image: url(../img/item3.svg);  
+        background-repeat: no-repeat;
     }
