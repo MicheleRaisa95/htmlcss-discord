@@ -5,7 +5,7 @@
 }
 /* STILE 3 COLONNE*/
 header {
-    background-color: lightskyblue;
+    background-color: #255EE9;
     padding: 10px 0px;
     
     
@@ -91,9 +91,8 @@ header {
 .col-100 {
    
     width: 100%;
-    border: 1PX solid black;
-    height: 250px;
-    background-color: pink;
+   
+    
 }
 
 .py-50 {
@@ -207,3 +206,39 @@ footer {
         background-color: white;
     }
     /*FINE STILIZZAZIONE HEADER*/
+
+    /*STILIZZAZIONE MAIN*/
+    .bg-jumbo {
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .text-align-center {
+        text-align: center;
+    }
+
+    .color-text {
+        color: #fff;
+    }
+
+    .open-button a {
+        padding: 10px;
+        border-radius: 30px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+
+    }
+
+    .open-button li {
+        display: inline-block;
+        padding: 0 15px;
+        list-style-type: none;
+       
+    }
+
+    #a1 {
+        background-color: rgb(39, 37, 37);
+        color: white;
+    }
