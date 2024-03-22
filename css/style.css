@@ -248,6 +248,8 @@ footer {
         background-image: url(../img/wave.svg);
         background-size:auto;
         background-repeat: no-repeat;
+    }
+        
         
         
        
@@ -255,8 +257,7 @@ footer {
         
         
         
-    }
-
+    
     #mage {
         background-image: url(../img/item2.svg);
         background-repeat: no-repeat;
@@ -291,6 +292,8 @@ footer {
         border-color: silver;
     }
 
+    /* fine main*/
+    /*inizio footer*/
     .ita {
         width: 15%;
         padding-top: 20px;
