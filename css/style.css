@@ -301,15 +301,19 @@ footer {
 
     .resize {
         width: 10%;
+        padding-top: 20px;
+        
     }
 
     .endlist {
+       
         list-style-type: none;
         color: #fff;
     }
 
     .title {
         color: #546ca8;
+        padding-top: 30px;
     }
    
     .end-btn {
