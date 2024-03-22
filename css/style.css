@@ -26,14 +26,14 @@ header {
 
 .col-50 {
     width: 50%;
-    border: 1px solid black;
+    
     }
     
    
 
 .col-25 {
     width: 25%;
-    border: 1px solid black;
+    
     text-align: left;
 }
    
@@ -51,7 +51,7 @@ header {
 }
     .unstyled-list li {
         display: inline-block;
-        text-decoration: none;
+       padding: 0 15px;
     }
     .unstyled-list {
         list-style-type: none;
@@ -60,8 +60,9 @@ header {
         display: inline-block;
     }
     .unstyled-list li a {
-        color: #000;
+        color: #fff;
         text-decoration: none;
+        font-weight: 800;
     }
     
     .py-10 {
@@ -70,6 +71,11 @@ header {
 
       /*FINE STILE 3 COLONNE*/ 
 
+      /* BODY*/
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+        /*FINE BODY*/
 
 /*STILE COLONNA SU SFONDO COLORATO*/
 .container-piccolo {
@@ -78,10 +84,9 @@ header {
     
     padding: 100PX;
 }
-.bg-dark-blue {
-    background-color: darkblue;
+
     
-}
+
 
 .col-100 {
    
@@ -188,3 +193,17 @@ footer {
     .d-flex.align-items-center.justify-content-between {
         height: 100%;
     }
+
+    /*STILIZZAZIONE CONTENUTO HEADER*/
+
+    .btn {
+        padding: 10px;
+        border-radius: 30px;
+        color: black;
+        text-decoration: none;
+    }
+       
+    .btn-white {
+        background-color: white;
+    }
+    /*FINE STILIZZAZIONE HEADER*/
